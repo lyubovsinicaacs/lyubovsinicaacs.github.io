@@ -6,3 +6,87 @@
 @import "services.scss";
 @import "portfolio.scss";
 @import "bootstrap-overrides.scss";
+
+
+.nowrap {
+	white-space: nowrap;
+}
+.logo {
+	font-size: 1rem;
+}
+.afterlogo {
+	display: block;
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+
+header.masthead h1 {
+    font-size: 1.5rem;
+}
+@media (min-width: 992px) {
+	header.masthead h1 {
+	    font-size: 2rem;
+	}
+}
+@media (min-width: 1200px) {
+	header.masthead h1 {
+	    font-size: 2rem;
+	}
+}
+
+.faq-block {
+	width: 100%;
+}
+.card {
+	margin-bottom: 5px;
+
+	.card-block {
+		padding: 1rem;
+	}
+	.card-header {
+		padding: 0;
+
+		&:hover {
+			background: $primary;
+
+			h5 a {
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+		h5 {
+			font-size: 1rem;
+
+			a {
+				display: block;
+				padding: .5rem 1rem;
+			}
+		}
+	}
+}
+.socials {
+	margin-top: 5rem;
+
+	a {
+		display: inline-block;
+		margin: 0 20px;
+
+	}
+	a:hover i.fa {
+		@include transition-all;
+		color: $gray-600 !important;
+	}
+}
+.contact-block a:hover {
+	text-decoration: none;
+	color: $gray-600;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+	font-size: 1rem;
+	margin-top: 10px;
+
+	a {
+		color: #fff;
+	}
+}

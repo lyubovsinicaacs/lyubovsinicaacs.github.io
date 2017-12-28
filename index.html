@@ -23,7 +23,6 @@
 
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
-    <link href="css/mystyles.css" rel="stylesheet">
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
@@ -71,10 +70,10 @@
               <a class="nav-link js-scroll-trigger" href="#services">Условия аренды</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Фотографии</a>
+              <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Обо мне</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Фотографии</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Контакты</a>
@@ -135,9 +134,9 @@
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-truck text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Доставка</h3>
-              <p class="text-muted mb-0">Можно организовать доставку до студии и обратно. Стоимость договорная.</p>
+              <i class="fa fa-4x fa-clock-o text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Часы работы</h3>
+              <p class="text-muted mb-0">Ежедневно, включая выходные и праздники с 10 до 20 часов.</p>
             </div>
           </div>
         </div>
@@ -148,10 +147,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
+            <h2 class="section-heading text-white">Как я начала создавать аксессуары</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+            <p class="text-faded mb-4">В прошлом, работая фотографом, мне не хватало вещей, которые можно было бы арендовать на съемки. Либо это очень дорого, либо нужно купить тот или иной аксессуар, либо это ширпотреб. Мне это очень не нравилось. Поэтому я начала делать украшения, которые можно взять за относительно небольшую аренду. Кокошник - мой дебют.</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact">Арендовать!</a>
           </div>
         </div>
       </div>
@@ -166,87 +165,111 @@
           </div>
         </div>
         <div class="row">
-          <div id="accordion" role="tablist" aria-multiselectable="true">
-          <div class="card">
-    <div class="card-header" role="tab" id="headingOne">
-      <h5 class="mb-0">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Как происходит процесс аренды?
-        </a>
-      </h5>
-    </div>
+          <div id="accordion" role="tablist" aria-multiselectable="true" class="faq-block">
+            <div class="card">
+              <div class="card-header" role="tab" id="heading1">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                    Как происходит процесс аренды?
+                  </a>
+                </h5>
+              </div>
+              <div id="collapse1" class="collapse" role="tabpanel" aria-labelledby="heading1">
+                <div class="card-block">
+                  <span class="text-muted">Вы пишете мне, когда и на сколько времени хотите взять кокошник в аренду. Если эти даты не заняты, ставится бронь (бесплатно). Затем мы договариваемся о встрече, где я отдаю Вам кокошник, взамен получаю обозначенную сумму + залог. После окончания аренды, если отдача не просрочена и с кокошником все в порядке, залог возвращается в полном размере.</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" role="tab" id="heading2">
+                <h5 class="mb-0">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                    Можно ли арендовать кокошник на мероприятие?
+                  </a>
+                </h5>
+              </div>
 
-    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-      <div class="card-block">
-        Вы пишете мне, когда и на сколько времени хотите взять кокошник в аренду. Если эти даты не заняты, ставится бронь (бесплатно). Затем мы договариваемся о встрече, где я отдаю Вам кокошник, взамен получаю обозначенную сумму + залог. После окончания аренды, если отдача не просрочена и с кокошником все в порядке, залог возвращается в полном размере.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="headingOne">
-      <h5 class="mb-0">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Можно ли арендовать кокошник на мероприятие?
-        </a>
-      </h5>
-    </div>
-
-    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-      <div class="card-block">
-        Да, конечно можно. Условия аренды те же, что и для фотосессий: 700 руб. в 1-2 дня. Т. е., например, сегодня утром или днем забираете, завтра отдаете с 10 до 20 часов.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="headingTwo">
-      <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Если я не успею отдать изделие в срок?
-        </a>
-      </h5>
-    </div>
-    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="card-block">
-        В таком случае из залога вычитается сумма аренды еще на день. Но делать так крайне нежелательно, поскольку этот день может быть запланирован для другой фотосессии. Это подведет съемочную команду, которая рассчитывала на кокошник.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="headingThree">
-      <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Можно ли продлить аренду?
-        </a>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="card-block">
-        Можно, если кокошник не зарезервирован другими командами.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="headingFour">
-      <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          Что считается дефектом, из-за которого будет взиматься дополнительная плата из залога?
-        </a>
-      </h5>
-    </div>
-    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
-      <div class="card-block">
-        <ul>
-          <li>Кокошник порван или сильно помят</li>
-          <li>Облит, испачкан и посыпан чем-либо (краской, чем-то сладким, пыль, грязь, блестки и т. д.)</li>
-          <li>Отдан позднее оговоренного срока</li>
-        </ul>
-        
-        <div class="alert alert-success" role="alert">Не считается дефектом выпавшая бусина или облупившаяся на ней краска.</div>
-        
-      </div>
-    </div>
-  </div>
-</div>
+              <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2">
+                <div class="card-block">
+                  <span class="text-muted">Да, конечно можно. Условия аренды те же, что и для фотосессий: 700 руб. в 1-2 дня. Т. е., например, сегодня утром или днем забираете, завтра отдаете с 10 до 20 часов.</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" role="tab" id="heading3">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                    Если я не успею отдать изделие в срок?
+                  </a>
+                </h5>
+              </div>
+              <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3">
+                <div class="card-block">
+                  <span class="text-muted">В таком случае из залога вычитается сумма аренды еще на день. Но делать так крайне нежелательно, поскольку этот день может быть запланирован для другой фотосессии. Это подведет съемочную команду, которая рассчитывала на кокошник.</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" role="tab" id="heading4">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                    Можно ли продлить аренду?
+                  </a>
+                </h5>
+              </div>
+              <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4">
+                <div class="card-block">
+                  <span class="text-muted">Можно, если кокошник не зарезервирован другими командами.</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" role="tab" id="heading5">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                    Что считается дефектом, из-за которого будет взиматься дополнительная плата из залога?
+                  </a>
+                </h5>
+              </div>
+              <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading5">
+                <div class="card-block">
+                  <ul class="text-muted">
+                    <li>Кокошник порван или сильно помят</li>
+                    <li>Облит, испачкан или посыпан чем-либо (краской, чем-то сладким, пыль, грязь, блестки и т. д.)</li>
+                    <li>Отдан позднее оговоренного срока</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" role="tab" id="heading6">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                    Как часто проходит чистка кокошника?
+                  </a>
+                </h5>
+              </div>
+              <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading6">
+                <div class="card-block">
+                  <span class="text-muted">Механическая чистка проходит после каждого клиента. Также он обрабатывается антибактериальным спреем.</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" role="tab" id="heading7">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                    Можно ли обойтись без залога?
+                  </a>
+                </h5>
+              </div>
+              <div id="collapse7" class="collapse" role="tabpanel" aria-labelledby="heading7">
+                <div class="card-block">
+                  <span class="text-muted">Да, можно организовать доставку до студии с ожиданием на 1-2 часа. В этом случае залог не нужен. Однако конкретной стоимости такой услуги нет, она зависит от нескольких факторов: время и дата проведения съемки, а также наличие или отсутствие у меня времени. Ориентироваться можно на 300-500 руб.</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -263,10 +286,10 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
+                    Фотостудия "Соль"
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Модель: @модель, Стилист-Визажист: @Ольга Какао, Фотограф: @Олег Величко
                   </div>
                 </div>
               </div>
@@ -278,10 +301,10 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
+                    Фотостудия "Соль"
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Модель: @модель, Стилист-Визажист: @Ольга Какао, Фотограф: @Олег Величко
                   </div>
                 </div>
               </div>
@@ -293,10 +316,10 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
+                    Фотостудия "Соль"
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Модель: @модель, Стилист-Визажист: @Ольга Какао, Фотограф: @Олег Величко
                   </div>
                 </div>
               </div>
@@ -308,10 +331,10 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
+                    Фотостудия "Соль"
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Модель: @модель, Стилист-Визажист: @Ольга Какао, Фотограф: @Олег Величко
                   </div>
                 </div>
               </div>
@@ -323,10 +346,10 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
+                    Фотостудия "Соль"
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Модель: @модель, Стилист-Визажист: @Ольга Какао, Фотограф: @Олег Величко
                   </div>
                 </div>
               </div>
@@ -338,10 +361,10 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
+                    Фотостудия "Соль"
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Модель: @модель, Стилист-Визажист: @Ольга Какао, Фотограф: @Олег Величко
                   </div>
                 </div>
               </div>
@@ -353,7 +376,7 @@
 
     
 
-    <section id="contact">
+    <section id="contact" class="contact-block">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
@@ -376,7 +399,10 @@
         </div>
         <div class="row">
           <div class="col-lg-12 text-center">
-            
+            <div class="socials">
+              <a href="https://www.instagram.com/lyubovsinicaacs/" target="_blank"><i class="fa fa-instagram fa-2x text-primary" aria-hidden="true"></i></a>
+              <a href="https://vk.com/lyubovsinicaacs" target="_blank"><i class="fa fa-vk fa-2x text-primary" aria-hidden="true"></i></a>
+            </div>
           </div>
         </div>
       </div>
