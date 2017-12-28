@@ -25,6 +25,35 @@
     <link href="css/creative.min.css" rel="stylesheet">
     <link href="css/mystyles.css" rel="stylesheet">
 
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter47162268 = new Ya.Metrika({
+                        id:47162268,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <!-- /Yandex.Metrika counter -->
+
   </head>
 
   <body id="page-top">
@@ -66,7 +95,7 @@
           </div>
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">Кокошник сделан из сутажного шнура, бисера и бусин.<br />Полностью ручная работа.</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Об условиях аренды</a>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Подробнее</a>
           </div>
         </div>
       </div>
@@ -115,7 +144,112 @@
       </div>
     </section>
 
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">We've got what you need!</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">FAQ</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+        <div class="row">
+          <div id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="card">
+    <div class="card-header" role="tab" id="headingOne">
+      <h5 class="mb-0">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Как происходит процесс аренды?
+        </a>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+      <div class="card-block">
+        Вы пишете мне, когда и на сколько времени хотите взять кокошник в аренду. Если эти даты не заняты, ставится бронь (бесплатно). Затем мы договариваемся о встрече, где я отдаю Вам кокошник, взамен получаю обозначенную сумму + залог. После окончания аренды, если отдача не просрочена и с кокошником все в порядке, залог возвращается в полном размере.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingOne">
+      <h5 class="mb-0">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Можно ли арендовать кокошник на мероприятие?
+        </a>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+      <div class="card-block">
+        Да, конечно можно. Условия аренды те же, что и для фотосессий: 700 руб. в 1-2 дня. Т. е., например, сегодня утром или днем забираете, завтра отдаете с 10 до 20 часов.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingTwo">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Если я не успею отдать изделие в срок?
+        </a>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="card-block">
+        В таком случае из залога вычитается сумма аренды еще на день. Но делать так крайне нежелательно, поскольку этот день может быть запланирован для другой фотосессии. Это подведет съемочную команду, которая рассчитывала на кокошник.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingThree">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Можно ли продлить аренду?
+        </a>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="card-block">
+        Можно, если кокошник не зарезервирован другими командами.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingFour">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Что считается дефектом, из-за которого будет взиматься дополнительная плата из залога?
+        </a>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="card-block">
+        <ul>
+          <li>Кокошник порван или сильно помят</li>
+          <li>Облит, испачкан и посыпан чем-либо (краской, чем-то сладким, пыль, грязь, блестки и т. д.)</li>
+          <li>Отдан позднее оговоренного срока</li>
+        </ul>
+        
+        <div class="alert alert-success" role="alert">Не считается дефектом выпавшая бусина или облупившаяся на ней краска.</div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </section>
     
 
     
@@ -217,45 +351,32 @@
       </div>
     </section>
 
-    <section class="bg-primary" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
-            <hr class="light my-4">
-            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-dark text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
-      </div>
-    </section>
+    
 
     <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <h2 class="section-heading">Контакты</h2>
             <hr class="my-4">
-            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+            <p class="mb-5">Свяжитесь со мной, чтобы арендовать кокошник или задать вопрос. Я постараюсь оперативно ответить.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>123-456-6789</p>
+            <p><a href="tel:89215760446">+7 921 576 04 46</a></p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
-              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+              <a href="mailto:lyubovsinicaacs@gmail.com">lyubovsinicaacs@gmail.com</a>
             </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            
           </div>
         </div>
       </div>
